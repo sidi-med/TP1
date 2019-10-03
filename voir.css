@@ -31,7 +31,7 @@ nav ul {
     
 }
 .element-flexible > a {
-    border-bottom: 2px solid olivedrab;
+    border-bottom: 2px solid maroon;
 }
 a {
     text-align: center;
@@ -75,8 +75,10 @@ nav>ul>li:hover .sous {
 
 section{
     margin-left: 5%;
-    margin-right: 2%;
-    padding: 10px;
+    margin-right: 5%;
+    /* background-color: yellow; */
+   
+
 }
 
 #ubb
@@ -91,7 +93,6 @@ h1{
     color: black;
     font-size: 2.6em;
     padding: 5px;
-    border: 1px solid black;
     margin-bottom: 0;
 }
 
@@ -99,7 +100,6 @@ h2{
     font-size: 4.2em;
     color: maroon;
     padding: 5px;
-    border: 1px solid black;
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -108,12 +108,54 @@ p{
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: justify;
+    font-size: calibri;
 }
 
 strong{
     font-weight: bold;
     
 }
-img{
-    width: 50%;
+
+
+#team
+{
+    width: 70%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+ 
 }
+
+figcaption{
+    background-color: maroon;
+
+    color: whitesmoke;
+}
+
+
+
+
+#contentImg {
+    display: flex;
+    flex-flow: row nowrap
+}
+
+#contentImg element-flex {
+    flex: 1 1 10%;
+}
+
+.efb70 {
+    flex-basis: 70%;
+}
+
+#team {
+    width: 100%;
+}
+
+#logo {
+    width: 100%;
+}
+
+/* figure, aside {
+    border: 1px solid black;
+} */
