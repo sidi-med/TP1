@@ -1,0 +1,35 @@
+label {
+    width: 80px;
+    display: inline-block;
+    font-size: 1.3em;
+    color: rgb(228, 140, 108);
+}
+
+textarea{
+ width: 500px;
+    height: 300px;
+}
+
+#form2 label  {
+
+display: block;
+width: 300px;
+margin-bottom: 10px;
+
+
+}
+
+form{
+
+    margin-left: 10px;
+}
+
+#legend{
+    display: inline-block;
+    font-size: 1.3em;
+    color: rgb(228, 140, 108);
+}
+input{
+    margin-bottom: 10px;
+
+}
