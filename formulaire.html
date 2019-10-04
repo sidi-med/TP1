@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="TP1.css" />
+    <link rel="stylesheet" type="text/css" href="formulaire.css" />
+
+    <title>formulaire</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <h1> Sortir à Bordeaux </h1>
+    <div>
+        <nav>
+            <ul class="conteneur-flexible">
+                <li class="element-flexible"><a href="events.html">Evénements</a>
+                    <ul class="sous">
+                        <li><a href="evenement.html" </a>Théatres </li> <li><a href="concerts">Concerts</a></li>
+                        <li><a href="cinema">Cinéma</a></li>
+                    </ul>
+                </li>
+                <li class="element-flexible"><a href="sports.html">Sports </a>
+                    <ul class="sous">
+                        <li><a href="voir">À voir</a></li>
+                        <li><a href="faire">À faire</a></li>
+                    </ul>
+                </li>
+                <li class="element-flexible"><a href="bars-resto.html">Bar/Restos</a>
+                    <ul class="sous">
+                        <li><a href="selection">Notre Sélection</a></li>
+                        <li><a href="thematiques">Thématiques</a></li>
+                    </ul>
+                </li>
+                <li class="element-flexible"><a href="incontournables.html">Les incontournables</a>
+                    <ul class="sous">
+                        <li><a href="cite">Cité du Vin</a></li>
+                        <li><a href="miroir">Miroir d'eau</a></li>
+                        <li><a href="unesco">Bordeaux UNESCO</a></li>
+                    </ul>
+                </li>
+                <li class="element-flexible"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <form method="POST" id="form1">
+        <fieldset>
+            <legend id="legend">Informations Personnelles</legend>
+            <label>Nom :</label>
+            <input name="nom" type="text" required value="" placeholder="Mettez votre Nom"><br>
+            <label>Prénom :</label>
+            <input name="prénom" type="text" required value="" placeholder="Mettez votre Prénom"><br>
+            <label>Email :</label>
+            <input name="email" type="email" required value="" placeholder="Mettez votre Email"><br>
+        </fieldset>
+    </form>
+    <br><br><br><br>
+    <form id="form2">
+        <p>
+            <label for="story">Exprimez-vous :</label>
+            <textarea id="message" name="message" type="text" required value="" rows="5" cols="33"> </textarea>
+        </p><br>
+        <input type="submit" value="Envoyez">
+    </form>
+
+
+    <footer>
+
+        <div class="foot">
+            <h3>Suivez-nous : </h3>
+            <ul class="foot">
+                <li class="foot"><a href="https://www.facebook.com/" target="_blank"><img src="facebook.png"
+                            alt="logo facebook" width="50" height="50">
+                    </a></li>
+                <li class="foot"><a href="https://twitter.com/" target="_blank"><img src="log twit.png"
+                            alt="logo twitter" width="50" height="50">
+                    </a></li>
+                <li class="foot"><a href="https://instagram.com" target="_blank"><img src="instagram.png"
+                            alt="logo instagram" width="50" height="50">
+                    </a></li>
+
+            </ul>
+        </div>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
